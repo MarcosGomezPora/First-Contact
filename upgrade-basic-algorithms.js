@@ -1,9 +1,7 @@
+ // Iteración 1 
+let myFavoriteHero = "Hulk";
+let x = 50;
+let h = 5;
+let y = 10;
+let z = h + y;
 
-// Iteración 2 1.4
-let globalBasePrice = 10000;
-const car1 = {name: 'BMW m&m', basePrice: 50000, finalPrice: 60000};
-const car2 = {name: 'Chevrolet Corbina', basePrice: 70000, finalPrice: 80000};
-globalBasePrice = 25000;
-car1.finalPrice = globalBasePrice + car1.basePrice;
-car2.finalPrice = globalBasePrice + car2.basePrice;
-console.log(car1);
