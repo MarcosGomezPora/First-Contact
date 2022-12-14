@@ -29,3 +29,17 @@ car1.finalPrice = globalBasePrice + car1.basePrice;
 car2.finalPrice = globalBasePrice + car2.basePrice;
 console.log(car1);
 
+// Iteración 3
+const multi = 10 * 5;
+console.log(multi);
+const divi = 10 / 2;
+console.log(divi);
+const subt = 15 - 9;
+console.log(subt);
+let y = 10;
+let z = 5;
+let x = y + z;
+console.log(x);
+let x = y * z;
+console.log(x);
+
