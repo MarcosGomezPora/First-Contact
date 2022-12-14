@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body, .root {
+  height: 100%;
+  margin: 0;
+}
+
+.header {
+  height: 200px;
+  background-color: #521554;
+}
+.headerNav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.trust {
+  height: 200px;
+  background-color: #F4EDE3;
+}
+
+.testimonials {
+  height: 200px;
+  background-color: #FFFFFF;
+}
+
+.features {
+  height: 200px;
+  background-color: #F4EDE3;
+}
+
+.cta {
+  height: 200px;
+}/*# sourceMappingURL=slack.css.map */
