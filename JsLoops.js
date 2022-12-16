@@ -16,7 +16,6 @@ const alumns = [
 	{name: 'Alfredo Blanco', T1: false, T2: false, T3: false},
 	{name: 'Raquel Benito', T1: true, T2: true, T3: true}
 ]
-//
 for (const alumn of alumns) {
    let T1 = alumn.T1
    let T2 = alumn.T2
@@ -28,3 +27,9 @@ for (const alumn of alumns) {
    }
 }
 console.log(alumns);
+
+//Iteración3
+const placesToTravel = ['Japon', 'Venecia', 'Murcia', 'Santander', 'Filipinas', 'Madagascar']
+for (const place of placesToTravel) {
+    console.log(place);
+}
