@@ -71,3 +71,6 @@ for (let i = 0; i < toys.length; i++) {
     }
     
 }
+console.log(toys);
+
+
