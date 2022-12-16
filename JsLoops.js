@@ -55,3 +55,19 @@ for (let i = 0; i < placesToTravel.length; i++) {
     
 }
 console.log(placesToTravel);
+
+//Iteración6
+const toys = [
+    {id: 5, name: 'Buzz MyYear'}, 
+    {id: 11, name: 'Action Woman'}, 
+    {id: 23, name: 'Barbie Man'}, 
+    {id: 40, name: 'El gato con Guantes'},
+    {id: 40, name: 'El gato felix'}
+    ]
+for (let i = 0; i < toys.length; i++) {
+    if (toys[i].name.includes('gato')) {
+        toys.splice(i,1);
+        i--;
+    }
+    
+}
